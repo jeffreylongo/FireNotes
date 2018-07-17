@@ -1,0 +1,12 @@
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.csprojAssemblyReference.cache
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\bin\Debug\firenotes.dll
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\bin\Debug\firenotes.pdb
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.App.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.Views.SignInPage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.Views.SignUpPage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.Views.HomePage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.Views.NewNotePage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.Views.NoteDetailsPage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.dll
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Debug\firenotes.pdb

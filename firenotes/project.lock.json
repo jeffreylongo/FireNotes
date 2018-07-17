@@ -29,6 +29,53 @@
           "lib/netstandard1.1/Firebase.dll": {}
         }
       },
+      "Microsoft.AppCenter/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.7.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.7.0"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -571,6 +618,67 @@
         "firebasedatabase.net.3.0.3.nupkg.sha512",
         "firebasedatabase.net.nuspec",
         "lib/netstandard1.1/Firebase.dll"
+      ]
+    },
+    "Microsoft.AppCenter/1.7.0": {
+      "sha512": "CZ3kCvTKTjh6W6oqbk6xKeXsJsNfYOHOhAkbE1CaFYBNfEv4OKjrpBtuam0CMHB6RJe62WGpfBt9uTup5nLQOw==",
+      "type": "package",
+      "path": "microsoft.appcenter/1.7.0",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.dll",
+        "lib/uap10.0/Microsoft.AppCenter.dll",
+        "microsoft.appcenter.1.7.0.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/1.7.0": {
+      "sha512": "Y89qvqhpiRZEJzg6lnkZmBSMa5Tzjy/xbHQWC26ThxITH6vUBvOyexjgzEtfRcFF8PwGMSfMOFv7+E55QTKhNg==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/1.7.0",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
+        "microsoft.appcenter.analytics.1.7.0.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/1.7.0": {
+      "sha512": "N0eL4F5SKyvLc/s17/k/GHAtHhWHZSxcnN3Q9kdM47Imf0h/i2pWdhtQ0T3D2HssGWTXnektZUJDuKTrr5AsDA==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/1.7.0",
+      "files": [
+        ".signature.p7s",
+        "build/uap10.0/Microsoft.AppCenter.Crashes.targets",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll",
+        "microsoft.appcenter.crashes.1.7.0.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec",
+        "ref/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-arm/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x64/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x64/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x64/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -3289,6 +3397,9 @@
     "": [
       "FirebaseAuthentication.net >= 3.0.5",
       "FirebaseDatabase.net >= 3.0.3",
+      "Microsoft.AppCenter >= 1.7.0",
+      "Microsoft.AppCenter.Analytics >= 1.7.0",
+      "Microsoft.AppCenter.Crashes >= 1.7.0",
       "SuaveControls.FloatingActionButton >= 2017.10.17",
       "Toasts.Forms.Plugin >= 3.2.1",
       "Xamarin.Forms >= 2.5.0.91635",
@@ -3320,6 +3431,9 @@
     "dependencies": {
       "FirebaseAuthentication.net": "[3.0.5, )",
       "FirebaseDatabase.net": "[3.0.3, )",
+      "Microsoft.AppCenter": "[1.7.0, )",
+      "Microsoft.AppCenter.Analytics": "[1.7.0, )",
+      "Microsoft.AppCenter.Crashes": "[1.7.0, )",
       "SuaveControls.FloatingActionButton": "[2017.10.17, )",
       "Toasts.Forms.Plugin": "[3.2.1, )",
       "Xamarin.Forms": "[2.5.0.91635, )",

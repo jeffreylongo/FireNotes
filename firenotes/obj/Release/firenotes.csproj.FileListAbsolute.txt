@@ -1,0 +1,10 @@
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\bin\Release\firenotes.dll
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.csprojAssemblyReference.cache
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.App.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.Views.SignInPage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.Views.SignUpPage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.Views.HomePage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.Views.NewNotePage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.Views.NoteDetailsPage.xaml.g.cs
+C:\Users\Jeff\Downloads\firenotes-master\firenotes-master\firenotes\obj\Release\firenotes.dll
