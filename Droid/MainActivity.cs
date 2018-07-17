@@ -33,6 +33,7 @@ namespace firenotes.Droid
                 typeof(Analytics), typeof(Crashes));
 
             //inconsequential notes to test continuous integration. 
+            //NewTestBranchChanges
 
             DependencyService.Register<ToastNotification>();
             ToastNotification.Init(this);
